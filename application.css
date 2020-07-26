@@ -1,0 +1,44 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 576px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    background-color: #dcd6bc;
+    border: 10px solid black;
+}
+
+.row {
+    display: inherit;
+    flex-wrap: wrap;
+    margin: 0px 0px
+}
+
+.tile {
+    width: 60px;
+    height: 60px;
+    background: lightgray;
+    border-style: outset;
+    border-width: 2px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: bottom;
+    padding-top: 15px;
+}
+
+.explored {
+    border-style: inset;
+}
+
+.flagged, .bombed {
+    color: red;
+}
+
+.game-title {
+    text-align: center;
+}
+
+.message {
+    text-align: center;
+}
